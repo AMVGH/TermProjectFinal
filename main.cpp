@@ -9,6 +9,12 @@ using namespace std;
 
 
 int main() {
+    /*TODO: At current state timing for each sorting method must be done
+     * independent of one another. If they are run together the second sorting method
+     * will be passed a sorted array and the time complexity will not reflect appropriately.
+     * -
+     * Update code to pass by value and not reference
+     *
     int arraySizes[] = {500, 2500, 5000, 15000, 30000, 60000};
 
     for(int arraySize:arraySizes){
